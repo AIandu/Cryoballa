@@ -17,7 +17,7 @@ const deploymentStats = [
 
 export default function Landing() {
   return (
-    <div className="min-h-screen hex-pattern">
+    <div className="min-h-screen hex-pattern" style={{ background: 'linear-gradient(180deg, #0a1020 0%, #0d1a2d 100%)' }}>
       {/* Main Control Interface */}
       <section className="relative min-h-[90vh] flex items-center justify-center px-4 py-12">
         {/* Grid overlay */}
